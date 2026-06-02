@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor AR Biotrom</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; height: 100vh; width: 100vw; }
+        model-viewer { width: 100%; height: 100%; }
+    </style>
+</head>
+<body>
+    <model-viewer 
+        src="PRUEBA QR.glb" 
+        ar 
+        ar-modes="webxr scene-viewer quick-look" 
+        camera-controls 
+        tone-mapping="neutral" 
+        shadow-intensity="1">
+    </model-viewer>
+</body>
+</html>
